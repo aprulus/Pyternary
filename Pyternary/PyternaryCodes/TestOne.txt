@@ -1,0 +1,19 @@
+in,0:WOAH I CAN COMMENT!!!
+set,%0
+multn,0
+#start,set,%1
+load,%1
+mult,%1
+comp,%0
+jumpuf,#addMore
+jumpz,#noFloor
+div,%1
+subn,1
+out,0
+halt,0
+#addMore,div,%1
+addn,1
+jump,#start
+#noFloor,div,%1
+out,0
+halt,0

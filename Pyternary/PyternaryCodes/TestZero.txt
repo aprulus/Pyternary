@@ -1,0 +1,10 @@
+in,0
+4,%0
+in,0
+20,%0
+19,#setVar
+out,0
+halt,0
+#setVar,load,%0
+out,0
+halt,0
