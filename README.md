@@ -36,3 +36,5 @@ to make it more open for others to want to try it. I added a few nice things to 
 Anyways, I hope you all are able to use this and enjoy Deternary, I had such a great time playing it, and honestly this might make me want to make projects just for fun in it.
 
 -AP
+
+**PS** I solved the first two as examples to show you it in action.
