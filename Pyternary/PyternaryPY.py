@@ -1,5 +1,6 @@
 import time
 from pynput.keyboard import Controller, Key
+import keyboard as keyPress
 
 #ngl I did this just because I prefer it being called Keyboard
 keyboard=Controller()
@@ -12,6 +13,7 @@ commentDelimiter=':'
 varFunctSetter="#"
 unknownNewPlace="%"
 jumpButton="d"
+startProgramButton="m"
 leftButton=Key.left
 rightButton=Key.right
 clickingSpeed=0.04
@@ -71,7 +73,7 @@ def main():
                 everyLines.append(line)
             else:
                 everyLines.append(line)
-    time.sleep(4)
+    keyPress.wait(startProgramButton)
     rightPress(1)
     counter=0
     for line in everyLines:
