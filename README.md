@@ -22,7 +22,7 @@ to make it more open for others to want to try it. I added a few nice things to 
   If you want to create a variable, but don't have a place in mind for it, use a %[number] format to set it to a free area. What this does is place it [number] away from your final line. Using %0 will put it at the first next free spot, %1 will be the second, etc. This really comes in handy when you are storing things, so I highly recommend you use this for that (ie: set,%0)
 
 **Using**
-  To use Pyternary, change the File to the File you need to read, and then hit play. Then, quickly switch over to your GD tab, and focus in on the game. It will then Macro the code into the game. DO NOT HAVE ANY OTHER THING BE FOCUSED ON DURING THIS PROCESS, otherwise it will start spamming all the inputs into that place. I added Time.Sleep() to it to try to minimize that occuring, so I hope that works for now.
+  To use Pyternary, change the File to the File you need to read, and then hit play. Then, quickly switch over to your GD tab, and focus in on the game. Then, hit the startProgramButton (default is "m"). This will then start the macroing process.
 
 **Changing Things**
   I attempted to add plenty of variables to Pyternary, so you could customize it as much as you can. The Main things you can change are the delimiters, Click Speed, File It Checks, and what Keys it Presses to do the things it needs to do. (I set the keys to the default ones) 
